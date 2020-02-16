@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: zhengjie0101
+    url: jdbc:mysql://127.0.0.1/bookstore?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: false
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host:
+    port: 6379
+server:
+    context-path: /sell
+
+
+
